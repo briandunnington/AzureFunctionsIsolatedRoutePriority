@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Title>Element.Azure.WebJobs.Extensions.RoutePriority</Title>
+    <Authors>Brian Dunnington</Authors>
+    <Description>
+      WebJobs extension for Azure Functions to fix the route priority resolution and make it deterministic.
+      If you are using Isolated functions, do not use this package directly. Use Element.Azure.Functions.Worker.Extensions.RoutePriority instead.
+    </Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.37" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Http" Version="3.2.0" />
+  </ItemGroup>
+
+</Project>

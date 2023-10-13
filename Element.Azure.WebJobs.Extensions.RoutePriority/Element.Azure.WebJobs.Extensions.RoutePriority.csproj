@@ -13,6 +13,8 @@
       If you are using Isolated functions, do not use this package directly. Use Element.Azure.Functions.Worker.Extensions.RoutePriority instead.
     </Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/briandunnington/AzureFunctionsIsolatedRoutePriority</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/briandunnington/AzureFunctionsIsolatedRoutePriority</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

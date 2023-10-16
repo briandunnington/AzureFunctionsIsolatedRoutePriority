@@ -10,7 +10,7 @@ Potentially ambiguous routes like these will resolve properly when called with a
 
 
 ## Usage
-Add the [Element.Azure.Functions.Worker.Extensions.RoutePriority](https://www.nuget.org/packages/Element.Azure.Functions.Worker.Extensions.RouteTelemetry) Nuget package to your Isolated Azure Functions project.
+Add the [Element.Azure.Functions.Worker.Extensions.RoutePriority](https://www.nuget.org/packages/Element.Azure.Functions.Worker.Extensions.RoutePriority) Nuget package to your Isolated Azure Functions project.
 
 **NOTE**: Due to how the Azure Functions metadata generator works, you must actually use the extension in a function declaration. To meet that requirement, you must add the `[RoutePriority]` input binding attribute to **any one** of your HttpTrigger functions (does **not** need to be all of them):
 

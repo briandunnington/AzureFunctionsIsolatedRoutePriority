@@ -1,6 +1,6 @@
 ﻿using Microsoft.Azure.Functions.Worker.Extensions.Abstractions;
 
-[assembly: ExtensionInformation("Element.Azure.WebJobs.Extensions.RoutePriority", "1.0.0")]
+[assembly: ExtensionInformation("Element.Azure.WebJobs.Extensions.RoutePriority", "1.0.1")]
 
 namespace Element.Azure.Functions.Worker.Extensions.RoutePriority
 {

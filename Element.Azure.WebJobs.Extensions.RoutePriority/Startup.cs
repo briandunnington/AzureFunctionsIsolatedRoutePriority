@@ -62,7 +62,7 @@ namespace Element.Azure.WebJobs.Extensions.RoutePriority
         public void Initialize(ExtensionConfigContext context)
         {
             var bindingRule = context.AddBindingRule<RoutePriorityAttribute>();
-            bindingRule.BindToInput<object?>(attr => null);
+            bindingRule.BindToInput<object?>(attr => new object());
 
             // The goal here is to get a reference to the ScriptJobHost instance that is created by the runtime so that we can listen for the HostInitialized event.
             // First, we need to find the type 'IScriptJobHost' (it is not in an assembly that we can reference).
